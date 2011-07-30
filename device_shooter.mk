@@ -130,7 +130,13 @@ PRODUCT_COPY_FILES += \
 # Wifi Module
 PRODUCT_COPY_FILES += \
     device/htc/shooter/modules/bcm4329.ko:system/lib/modules/bcm4329.ko \
-    device/htc/supersonic/modules/sequans_sdio.ko:system/lib/modules/sequans_sdio.ko
+    device/htc/shooter/modules/sequans_sdio.ko:system/lib/modules/sequans_sdio.ko \
+    device/htc/shooter/modules/wimaxuart.ko:system/lib/modules/wimaxuart.ko \
+    device/htc/shooter/modules/spidev.ko:system/lib/modules/spidev.ko  \
+    device/htc/shooter/modules/lcd.ko:system/lib/modules/lcd.ko \
+    device/htc/shooter/modules/wimaxdbg.ko:system/lib/modules/wimaxdbg.ko 
+
+
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
