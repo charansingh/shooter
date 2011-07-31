@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_shooter.mk
+    $(LOCAL_DIR)/shooter.mk
